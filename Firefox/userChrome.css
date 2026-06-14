@@ -1,0 +1,203 @@
+/* --- Palette Reference ---
+   sumiInk0:      #16161D  (statuslines, floating windows)
+   sumiInk1:      #1F1F28  (default background)
+   sumiInk2:      #2A2A37  (colorcolumn, folds)
+   sumiInk3:      #363646  (cursorline)
+   sumiInk4:      #54546D  (line numbers, borders)
+   fujiGray:      #727169  (comments)
+   fujiWhite:     #DCD7BA  (default foreground)
+   oldWhite:      #C8C093  (dark foreground)
+   carpYellow:    #E6C384  (identifiers) ← gold text
+   autumnYellow:  #DCA561  (git change)
+   crystalBlue:   #7E9CD8  (functions, titles)
+   springBlue:    #7FB4CA  (builtins)
+   oniViolet:     #957FB8  (keywords)
+   springViolet1: #938AA9  (light foreground)
+   autumnGreen:   #76946A  (git add)
+   autumnRed:     #C34043  (git delete)
+   ============================================= */
+
+#main-window,
+#navigator-toolbox,
+#browser {
+  background: transparent !important;
+}
+
+/* --- Nav Bar --- */
+#nav-bar {
+  background: #16161D !important;
+  border-bottom: 1px solid #2A2A37 !important;
+  box-shadow: none !important;
+}
+
+/* --- Hide horizontal tab bar (vertical sidebar tabs) --- */
+#TabsToolbar {
+  visibility: collapse !important;
+  height: 0 !important;
+}
+
+/* --- Tabs --- */
+.tabbrowser-tab {
+  background: transparent !important;
+}
+
+.tab-background {
+  background: transparent !important;
+  border: none !important;
+}
+
+.tabbrowser-tab[selected] .tab-background {
+  background: #2A2A37 !important;
+  border: 1px solid #363646 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+.tabbrowser-tab:not([selected]):hover .tab-background {
+  background: #1a1a23 !important;
+  border-radius: 6px !important;
+}
+
+.tab-label {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+  font-size: 10pt !important;
+  color: #727169 !important; /* fujiGray */
+}
+
+.tabbrowser-tab[selected] .tab-label {
+  color: #E6C384 !important; /* carpYellow — gold */
+}
+
+/* --- URL Bar --- */
+#urlbar {
+  background: #2A2A37 !important;
+  border: 1px solid #363646 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+#urlbar[focused] {
+  border-color: #7E9CD8 !important; /* crystalBlue */
+  background: #2A2A37 !important;
+  box-shadow: none !important;
+}
+
+#urlbar-input,
+#urlbar-input-container {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+  font-size: 10pt !important;
+  color: #E6C384 !important; /* carpYellow — gold */
+  background: transparent !important;
+}
+
+/* --- URL Dropdown --- */
+#urlbar-results {
+  background: #16161D !important;
+  border: 1px solid #2A2A37 !important;
+  border-radius: 8px !important;
+}
+
+.urlbarView-row:hover {
+  background: #2A2A37 !important;
+}
+
+.urlbarView-row[selected] {
+  background: #363646 !important;
+}
+
+/* --- Sidebar --- */
+#sidebar-box,
+#sidebar {
+  background: #16161D !important;
+  border-right: 1px solid #2A2A37 !important;
+  min-width: 180px !important;
+  max-width: 200px !important;
+}
+
+#sidebar-header {
+  background: #16161D !important;
+  border-bottom: 1px solid #2A2A37 !important;
+  color: #54546D !important; /* sumiInk4 */
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+  font-size: 9pt !important;
+}
+
+#sidebar-splitter {
+  background: #2A2A37 !important;
+  border: none !important;
+  width: 1px !important;
+}
+
+/* --- Context Menu --- */
+#contentAreaContextMenu,
+#contentAreaContextMenu * {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+  font-size: 9pt !important;
+}
+
+#contentAreaContextMenu {
+  background: #16161D !important;
+  border: 1px solid #2A2A37 !important;
+  border-radius: 8px !important;
+}
+
+menuitem:hover {
+  background: #2A2A37 !important;
+  border-radius: 4px !important;
+}
+
+/* --- Tab Group Labels --- */
+.tab-group-label {
+  #tabbrowser-tabs[orient="vertical"] & {
+    #tabbrowser-tabs[expanded] & {
+      font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+      margin-left: 15px !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      color: #54546D !important; /* sumiInk4 */
+      font-size: 9pt !important;
+    }
+  }
+}
+
+/* --- Toolbar Buttons --- */
+.toolbarbutton-1 {
+  color: #54546D !important; /* sumiInk4 */
+}
+
+.toolbarbutton-1:hover {
+  background: #2A2A37 !important;
+  border-radius: 6px !important;
+  color: #DCD7BA !important; /* fujiWhite */
+}
+
+#navigator-toolbox {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* --- Bookmarks Toolbar --- */
+#PersonalToolbar {
+  background: #16161D !important;
+  border-bottom: 1px solid #2A2A37 !important;
+}
+
+.bookmark-item,
+toolbarbutton.bookmark-item {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+  font-size: 9.5pt !important;
+  color: #727169 !important; /* fujiGray */
+}
+
+.bookmark-item:hover,
+toolbarbutton.bookmark-item:hover {
+  background: #2A2A37 !important;
+  border-radius: 4px !important;
+  color: #E6C384 !important; /* carpYellow — gold */
+}
+
+/* --- Downloads --- */
+#downloads-button,
+#downloads-indicator-anchor {
+  color: #54546D !important;
+}
