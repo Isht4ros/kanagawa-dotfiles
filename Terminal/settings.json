@@ -1,0 +1,108 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowNotificationIcon": true,
+    "centerOnLaunch": true,
+    "compatibility.enableUnfocusedAcrylic": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.CloseWindow",
+            "keys": "ctrl+f"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "Terminal.OpenSettingsUI",
+            "keys": "ctrl+m"
+        }
+    ],
+    "launchMode": "focus",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterLastTab",
+    "profiles": {
+        "defaults": {
+            "adjustIndistinguishableColors": "indexed",
+            "antialiasingMode": "cleartype",
+            "colorScheme": "Kanagawa",
+            "experimental.retroTerminalEffect": false,
+            "font": {
+                "face": "JetBrainsMono Nerd Font"
+            },
+            "opacity": 100,
+            "padding": "15",
+            "useAcrylic": false
+        },
+        "list": [
+            {
+                "colorScheme": "Kanagawa",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": {
+                    "face": "JetBrainsMono Nerd Font"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "opacity": 100,
+                "scrollbarState": "hidden"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            }
+        ]
+    },
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": [
+        {
+            "name": "Kanagawa",
+            "background": "#1F1F28",
+            "foreground": "#DCD7BA",
+            "cursorColor": "#C8C093",
+            "selectionBackground": "#2D4F67",
+            "black": "#090618",
+            "brightBlack": "#727169",
+            "red": "#C34043",
+            "brightRed": "#E82424",
+            "green": "#76946A",
+            "brightGreen": "#98BB6C",
+            "yellow": "#C0A36E",
+            "brightYellow": "#E6C384",
+            "blue": "#7E9CD8",
+            "brightBlue": "#7FB4CA",
+            "purple": "#957FB8",
+            "brightPurple": "#938AA9",
+            "cyan": "#6A9589",
+            "brightCyan": "#7AA89F",
+            "white": "#C8C093",
+            "brightWhite": "#DCD7BA"
+        }
+    ],
+    "tabSwitcherMode": "mru",
+    "tabWidthMode": "compact",
+    "theme": "dark",
+    "useAcrylicInTabRow": false
+}
