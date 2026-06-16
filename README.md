@@ -15,9 +15,10 @@ Kanagawa-themed Windows dotfiles
 
 - [Kanagawa](https://github.com/rebelot/kanagawa.nvim) by rebelot
 - [Kanagawa for Win11](https://www.deviantart.com/niivu/art/Kanagawa-for-Windows-11-1021605687) by niivu
+- [Kanagawa Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=metaphore.kanagawa-vscode-color-theme) by paccodes
 - [kanagawa.yazi](https://github.com/dangooddd/kanagawa.yazi) by dangooddd
 - [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)
-- 
+  
 
 <img width="3440" height="1440" alt="1" src="https://github.com/user-attachments/assets/e5d2f62e-a9aa-44d8-b74a-605bee7044d5" />
 <img width="3440" height="1440" alt="4" src="https://github.com/user-attachments/assets/ffc89e06-4d22-4ec4-9809-78f8534a2d78" />
