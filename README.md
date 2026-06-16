@@ -20,8 +20,9 @@ Kanagawa-themed Windows dotfiles
 - 
 
 <img width="3440" height="1440" alt="1" src="https://github.com/user-attachments/assets/e5d2f62e-a9aa-44d8-b74a-605bee7044d5" />
-<img width="3440" height="1440" alt="2" src="https://github.com/user-attachments/assets/386e9b33-6a97-4bff-a9a0-afb9d7686363" />
-<img width="3440" height="1440" alt="3" src="https://github.com/user-attachments/assets/9a43e76e-7440-4ea9-a482-47838c9fff51" />
+<img width="3440" height="1440" alt="4" src="https://github.com/user-attachments/assets/ffc89e06-4d22-4ec4-9809-78f8534a2d78" />
+<img width="3440" height="1440" alt="2" src="https://github.com/user-attachments/assets/989368be-80e3-444a-8956-01db199a129f" />
+
 
 
 ### Install
